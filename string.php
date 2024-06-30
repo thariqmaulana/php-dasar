@@ -1,7 +1,7 @@
 <?php 
 
 echo 'Nama : ';
-echo 'Thariq Maulana';
+echo 'Thariq   Maulana';
 echo "\n";
 echo '\n';
 echo "\n";
@@ -16,6 +16,7 @@ echo "\n";
 // daripada \n terus
 
 // Heredoc
+// biasanya tagnya uppercase
 echo <<<BEBAS
 Saya sedang belajar PHP
 ini adalah multiline    string
@@ -26,6 +27,7 @@ echo "\n";
 
 // Nowdoc
 // Nowdoc tidak bisa parsing variabel
+// perlu pakai ''
 echo <<<'BEBAS'
 Saya sedang belajar PHP
 ini adalah multiline    string
@@ -33,3 +35,4 @@ menggunakan nowdoc
 BEBAS;  
 
 
+// anggap saja nowdoc seperti '', heredoc ""

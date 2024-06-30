@@ -1,7 +1,7 @@
 <?php
 
 $gender = "wanita";
-$hi = null;
+$hi = null;//bisa dihapus kalau mau
 
 $hi = $gender == "pria" ? "hi bang" : "hi kak";
 

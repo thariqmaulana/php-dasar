@@ -8,6 +8,6 @@ if ($nilai >= 75 && $absen >= 75)  {
 } else {
   echo "Anda tidak lulus";
 }
-// elseif (condition) {
+// elseif or else if (condition) {
 //   # code...
 // }

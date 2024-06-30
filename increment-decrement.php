@@ -22,3 +22,9 @@ var_dump($a);
 
 // post =datanya disimpan dahulu baru diubah
 // pre = diubah dahulu baru disimpan
+
+$c = $a++;
+$b = ++$a;
+var_dump($b);
+var_dump($c);
+

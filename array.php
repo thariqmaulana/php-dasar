@@ -23,7 +23,8 @@ var_dump($values);
 unset($names[0]);
 var_dump($names);
 
-// array length
+// array length. tinggal 1 karena sudah di hapus 1
+// bagaimana cara mengakses length-1 seperti js. sedangkan indexnya sudah terlompat
 var_dump(count($names));
 
 

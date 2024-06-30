@@ -2,7 +2,7 @@
 
 $string = (string)100;
 $integer = (int)"100";
-$integersalah = (int)"salah";
+$integersalah = (int)"salah"; // kalau tidak valid jadi 0. jadi tidak error
 $float = (float)"100";
 $floatsalah = (float)"salah";
 

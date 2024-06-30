@@ -4,10 +4,13 @@
 $thariq = array(
   "id" => "thariq",
   "name" => "thariq maulana",
-  23
+  23,
+  200
 );
 // 23 index 0
-// bisa juga menggunakan []
+// 200 = 1
+
+// bisa juga menggunakan [] untuk membuat array. seperti di JS
 
 var_dump($thariq);
 var_dump($thariq["id"]);
